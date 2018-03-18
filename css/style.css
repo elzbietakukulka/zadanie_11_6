@@ -13,7 +13,8 @@ h1 {
 	font-size: 40px; 
 	padding: 20px 0; 
 	text-align: center; 
-	color: #47454A; 
+	color: #47454A;
+	text-transform: uppercase;  
 }
 
 h2 { 
@@ -39,16 +40,17 @@ h2 {
 
 .column-container {
 	width: 100%;
+	display: -webkit-flex;
 	display: flex;
-	height: 600px;
-
 }
 
 .column {
 	border: 2px solid #47454A;
-	border-radius: 5px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #47454A;
 	width: 30%;
 	margin: 2%;
+	min-height: 600px;
 }
 
 .column-title {
@@ -67,8 +69,10 @@ h2 {
 	line-height: 20px;
 	width: 30px;
 	height: 30px;
-	border: 1px solid black;
-
+	border: 1px solid #47454A;
+	box-shadow: 5px 5px 10px #47454A;
+	color: #47454A;
+	font-weight: bold;
 }
 
 .add-card {
@@ -80,22 +84,26 @@ h2 {
 	border-radius: 10px;
 	position: relative;
 	top: -10px;
-
+	box-shadow: 5px 5px 10px #47454A;
+	border: 1px solid #47454A;
 }
 
-.column-card-list .ui-sortable {
+.column-card-list {
 	display: block;
 	padding: 10px;
+	min-height: 400px;
 }
 
 .card {
 	list-style-type: none;
 	background-color: #B39FB8;
 	text-align: left;
-	height: 90px;
+	min-height: 90px;
 	width: 90%;
 	margin: 20px auto;
 	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #47454A;
 }
 
 .card .btn-delete {
@@ -106,7 +114,11 @@ h2 {
 	line-height: 15px;
 	width: 20px;
 	height: 20px;
-	border: 1px solid black;
+	border: 1px solid #47454A;
+	box-shadow: 5px 5px 10px #47454A;
+	color: #47454A;
+	font-weight: bold;
+
 }
 
 .card-description {
