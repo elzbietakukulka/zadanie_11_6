@@ -92,6 +92,7 @@ h2 {
 	display: block;
 	padding: 10px;
 	min-height: 400px;
+	list-style-type: none;
 }
 
 .card {
